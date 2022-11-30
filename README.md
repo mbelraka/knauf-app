@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped
 with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Knauf Blogs
+## Knauf Blogs
 
 A react nextjs app using typescript. The app was meant as a working sample for an application for a role at Knauf.
 
