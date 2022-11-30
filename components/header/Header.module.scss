@@ -1,0 +1,54 @@
+@import "../../styles/utilities/variables";
+
+.fullContainer {
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%),
+    0px 1px 10px 0px rgb(0 0 0 / 12%);
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  align-items: center;
+  column-gap: 2rem;
+
+  .imagesContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.25rem;
+
+    .blogIcon {
+      color: $primary-color;
+      font-size: 1rem;
+    }
+  }
+
+  .linksContainer {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    height: 100%;
+
+    .link {
+      $border: 1px solid $knauf-light-black;
+      display: inline-flex;
+      align-items: center;
+      height: 100%;
+      transition: $transition;
+      padding: 0 1.5rem;
+      border-right: $border;
+      background-color: white;
+      color: $primary-color;
+
+      &:first-of-type {
+        border-left: $border;
+      }
+
+      &:active,
+      &:hover {
+        background-color: $knauf-light-black;
+        color: white;
+      }
+    }
+  }
+}
