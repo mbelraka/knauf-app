@@ -3,20 +3,31 @@
 .topContainer {
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
-  padding: 2rem;
+  padding: 2rem 0;
+  max-height: 100%;
+  overflow: hidden;
 
   .title {
     font-size: 2rem;
     color: $knauf-black;
     text-transform: uppercase;
+    padding: 0 2rem 1.5rem;
   }
 
   .blogsContainer {
     display: flex;
+    flex: 1 1 auto;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 24px;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    padding: 0.5rem 2rem 2rem;
+    overflow: auto;
+
+    .blog {
+      width: 100%;
+      max-width: 440px;
+      cursor: pointer;
+    }
   }
 }

@@ -11,8 +11,9 @@
     display: inline-flex;
     align-items: center;
     height: 100%;
+    line-height: 1rem;
     transition: $transition;
-    padding: 0 1.5rem;
+    padding: 1.5rem;
     border-right: $border;
     background-color: white;
     color: $primary-color;
