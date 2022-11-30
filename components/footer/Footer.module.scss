@@ -1,0 +1,13 @@
+@import "../../styles/utilities/variables";
+
+.footer {
+  height: 2.5rem;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  background-color: $primary-color;
+
+  .copyright {
+    color: white;
+  }
+}

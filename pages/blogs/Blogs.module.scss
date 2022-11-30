@@ -1,0 +1,22 @@
+@import "../../styles/utilities/variables";
+
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding: 2rem;
+
+  .title {
+    font-size: 2rem;
+    color: $knauf-black;
+    text-transform: uppercase;
+  }
+
+  .blogsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+}

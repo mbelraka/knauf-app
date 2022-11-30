@@ -1,0 +1,36 @@
+@import '../../styles/utilities/variables';
+
+.topContainer {
+  width:          480px;
+  height:         320px;
+  box-shadow:     rgb(0 0 0 / 20%) 0 0 8px 4px;
+  display:        flex;
+  flex-direction: column;
+
+  .title {
+    color:          $primary-color;
+    font-size:      1.5rem;
+    text-transform: uppercase;
+    border-bottom:  1px solid $knauf-light-black;
+    padding:        1rem;
+  }
+
+  .body {
+    display:       flex;
+    padding:       1rem;
+    flex:          1 1 auto;
+    align-items:   center;
+    overflow:      auto;
+
+    .content {
+      color:       $knauf-black;
+      white-space: pre-line;
+    }
+
+    border-bottom: 1px solid $knauf-light-black;
+  }
+
+  .userInformation {
+    padding: 1rem;
+  }
+}

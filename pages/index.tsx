@@ -9,9 +9,6 @@ export default function Landing() {
         <Icon className={styles.blogIcon}>chat_bubble</Icon>
         <span className={styles.title}>Kanuf Blog Portal</span>
       </div>
-      <div className={styles.footer}>
-        <span className={styles.copyright}>© 2022 Elrakaiby</span>
-      </div>
     </div>
   );
 }

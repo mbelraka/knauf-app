@@ -22,33 +22,4 @@
       font-size: 1rem;
     }
   }
-
-  .linksContainer {
-    display: flex;
-    flex-direction: row;
-    font-weight: bold;
-    height: 100%;
-
-    .link {
-      $border: 1px solid $knauf-light-black;
-      display: inline-flex;
-      align-items: center;
-      height: 100%;
-      transition: $transition;
-      padding: 0 1.5rem;
-      border-right: $border;
-      background-color: white;
-      color: $primary-color;
-
-      &:first-of-type {
-        border-left: $border;
-      }
-
-      &:active,
-      &:hover {
-        background-color: $knauf-light-black;
-        color: white;
-      }
-    }
-  }
 }
